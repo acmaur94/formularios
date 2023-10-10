@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>File</title>
+
+</head>
+
+<body>
+    <form>
+        <fieldset>
+
+            <label for="nome"> Nome: </label><input type="text"><br>
+            <label for="dtnasc"> Data de Nascimento: </label><input type="text"><br>
+            <label>Sexo:</label>
+            <input type="radio" id="masc" name="sexo">
+            <label for="masc">Masc</label>
+            <input type="radio" id="fem" name="sexo">
+            <label for="fem">Fem</label>
+            <input type="radio" id="naoinfo" name="sexo">
+            <label for="naoinfo">Prefiro não Informar</label> <br>
+            <label>Endereço:</label> <br>
+            <label for="logra">Logradouro:</label>
+            <input type="text" id="logradouro" name="logradouro"> <br>
+            <label for="logra">Bairro:</label>
+            <input type="text" id="bairro" name="bairro"> <br>
+            <label for="logra">Cidade:</label>
+            <input type="text" id="cidade"> <br>
+            <label for="uf">UF</label>
+            <select name="uf" id="uf">
+                <option value="df">DF</option>
+                <option value="es">Espirito Santo</option>
+                <option value="sc">Santa Catarina</option>
+                <option value="rj">Rio Janeiro</option>
+            </select> <br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"> <br>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+
+        </fieldset>
+
+
+        <h1 style="font-weight: bold;"> Formulário</h1>
+
+        <fomr>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="Nome"> Nome </label> <input type="text"> <br>
+                <label for="Data de nascimento">Data de Nascimento </label><input type="date"> <br>
+                <label for="E-mail"> E-mail </label><input type="text"> <br>
+                <label for="Telefone"> Telefone </label> <input type="text"> <br>
+            </fieldset>
+
+            <fieldset>
+                <legend> Dados acadêmicos</legend>
+                <label for="curso"> Curso </label>
+                <select id="Curso" name="curso">
+                    <option value="Análise e Desenvolvimento de Sistemas"> ADS </option>
+                    <option value="Ciências de Dados"> CD </option>
+                </select> <br>
+                <label for="semestre"> Semestre:</label>
+                <input type="radio"> <label for="1º">1º </label>
+                <input type="radio"> <label for="2º">2º</label>
+                <input type="radio"> <label for="3º">3º</label>
+                <input type="radio"> <label for="4º">4º</label>
+                <input type="radio"> <label for="5º">5º</label> <br>
+            </fieldset>
+            <fieldset>
+                <label for="trabalha"> Trabalha? </label>
+                <input type="checkbox"> <br>
+                <label for="local de trabalho"> Local de trabalho:</label> <input> <br>
+                <label for="descrever"> Descreva sua experiência:</label> <br>
+                <textarea style="width: 300px; height: 100px;">  </textarea>
+            </fieldset>
+            <input type="submit" value="Gravar">
+            <input type="submit" value="Limpar">
+
+
+
+        </fomr>
+        <a href="./index.html"> Voltar para página anterior</a>
+
+</body>
+
+</html>
